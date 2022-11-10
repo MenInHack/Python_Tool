@@ -40,7 +40,7 @@ class DNSScanner:
         }
         return result
 
-ds = DNSScanner("malteurop.com")
+ds = DNSScanner("ajouter ici le domaine")
 result = ds.process()
 print(str(result))
 
